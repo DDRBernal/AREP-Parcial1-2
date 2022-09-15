@@ -25,15 +25,13 @@ public class QuickSort {
                 if (i!=null) {
 
                 }
-            }System.out.println();
-            ArrayList<Integer> arrayTemp = new ArrayList<>();
-            for (Integer i : arrayTemp){
-                arrayTemp.add(i);
             }
+            ArrayList<Integer> arrayTemp = new ArrayList<>();
+
             ArrayList<Integer> firtArray = sort(arrayTemp, inicio, fin - 1);
             ArrayList<Integer> secondArray = sort(arrayTemp, inicio + 1, fin);
         }
-        return newArray;
+        return array;
     }
 
     public static Integer[] partition(ArrayList<Integer> A, int inicio, int fin){

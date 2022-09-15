@@ -97,19 +97,19 @@ public class HttpServer {
                     + "JSON: \n" + result;
 
 
-//            outputLine = "HTTP/1.1 200 OK\r\n"
-//                    + "Content-Type: text/html\r\n"
-//                    + "\r\n"
-//                    + "<!DOCTYPE html>\n"
-//                    + "<html>\n"
-//                    + "<head>\n"
-//                    + "<meta charset=\"UTF-8\">\n"
-//                    + "<title>Title of the document</title>\n"
-//                    + "</head>\n"
-//                    + "<body>\n"
-//                    + "<h1>Mi propio mensaje</h1>\n" +ReadFile.readfile()
-//                    + "</body>\n"
-//                    + "</html>\n";
+            outputLine = "HTTP/1.1 200 OK\r\n"
+                    + "Content-Type: text/html\r\n"
+                    + "\r\n"
+                    + "<!DOCTYPE html>\n"
+                    + "<html>\n"
+                    + "<head>\n"
+                    + "<meta charset=\"UTF-8\">\n"
+                    + "<title>Title of the document</title>\n"
+                    + "</head>\n"
+                    + "<body>\n"
+                    + "<h1></h1>\n"+result +ReadFile.readfile()
+                    + "</body>\n"
+                    + "</html>\n";
 
 
             out.println(outputLine);
